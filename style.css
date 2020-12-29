@@ -1,0 +1,142 @@
+.containerNote {
+  background-color: #f6f6f6;
+  width: 80%;
+  height: auto;
+  margin: 40px auto;
+  font-family: "Cinzel", serif;
+  box-shadow: 3px 3px #ffe2e2;
+  font-family: Monaco;
+}
+
+.containerNote header {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  height: 100px;
+  background-color: #ffc7c7;
+  padding: 10px 0px;
+  color: #aaaaaa;
+}
+
+.containerNote:hover {
+  box-shadow: 1px 1px 1px 1px #aaaaaa;
+}
+
+input[type="search"] {
+  height: 33px;
+  font-size: 0.7em;
+}
+#search-input {
+  border-radius: 100px;
+  padding: 10px 15px;
+  height: 40px;
+  border: none;
+}
+.far {
+  float: right;
+  padding: 0px 7px;
+}
+
+li {
+  box-shadow: 2px 2px 2px 2px grey;
+  list-style: none;
+  padding: 10px 0px;
+  padding-left: 10px;
+  /*        cursor: pointer;*/
+}
+
+.notes {
+  margin-right: 40px;
+}
+
+.fa-trash-alt {
+  color: #ffc7c7;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 5px;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.fa-edit {
+  color: #ffc7c7;
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  right: 40px;
+  top: 20px;
+}
+
+.add-notes {
+  margin: 40px;
+  padding-bottom: 30px;
+}
+
+input[type="text"] {
+  height: 45px;
+  width: 70%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+  padding: 5px 20px;
+  color: #ffc7c7;
+  font-weight: bolder;
+  font-size: 25px;
+}
+form {
+  position: relative;
+}
+#addNote {
+  position: absolute;
+  top: 0;
+  height: 45px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #ffc7c7;
+  color: #f6f6f6;
+  border: none;
+  margin: 0;
+}
+li {
+  margin: 15px 0;
+  border-radius: 5px;
+  background-color: #ffe2e2;
+  padding-left: 2em;
+  font-weight: bolder;
+  position: relative;
+}
+li:hover {
+  background-color: #aaaaaa;
+}
+li input {
+  width: 70%;
+  border: none;
+  background-color: aliceblue;
+  font-weight: bolder;
+  font-size: 1em;
+  background-color: transparent;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+#txEdit {
+  background-color: #f6f6f6;
+  border-radius: 100px;
+  width: 100%;
+}
+#exampleModal {
+  background-color: #ffc7c7;
+}
+.modal-footer button {
+  background-color: #ffc7c7;
+}
+.modal-title {
+  color: #ffc7c7;
+  font-weight: bolder;
+}
